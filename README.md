@@ -3,8 +3,7 @@ To find QRCode in a photo and read it, you can follow the example below or downl
 
 Create a new project to start
 
-Then add the following dll to the project
-BC.NetBarcodeReaderTrial.All
+Then add the following dll to the project ----> BC.NetBarcodeReaderTrial.All
 
 Link download dll  ----> https://file.io/8lo0tKEqIC7I
 
