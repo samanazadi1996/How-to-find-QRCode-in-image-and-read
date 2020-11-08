@@ -13,8 +13,13 @@ Add the BC.NetBarcodeReaderTrial.All Library to the project ----> using BC.NetBa
 After completing the previous steps, you can download the entire QrCodes inside the image and read the content by writing the sample code below.
 
   var fileUrl = "c://image.jpg";
+  
   string[] data = NetBarcodeReader.Recognize(fileUrl, NetBarcodeReader.Qrcode);
+  
   foreach (string result in data)
+  
   {
-    Console.WriteLine(result);
+  
+  Console.WriteLine(result);
+  
   }
